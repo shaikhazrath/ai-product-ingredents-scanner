@@ -1,0 +1,44 @@
+{
+  "name": "ingreai",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "@google/generative-ai": "^0.12.0",
+    "@radix-ui/react-hover-card": "^1.0.7",
+    "@radix-ui/react-slot": "^1.0.2",
+    "axios": "^1.7.2",
+    "chart.js": "^4.4.3",
+    "class-variance-authority": "^0.7.0",
+    "clsx": "^2.1.1",
+    "framer-motion": "^11.2.10",
+    "fs-react": "^0.0.4",
+    "lucide-react": "^0.383.0",
+    "next": "14.2.3",
+    "quagga": "^0.12.1",
+    "react": "^18",
+    "react-dom": "^18",
+    "react-easy-crop": "^5.0.7",
+    "react-icons": "^5.2.1",
+    "react-image-crop": "^11.0.5",
+    "react-intersection-observer": "^9.10.3",
+    "react-responsive-carousel": "^3.2.23",
+    "react-slick": "^0.30.2",
+    "recharts": "^2.12.7",
+    "slick-carousel": "^1.8.1",
+    "swiper": "^11.1.4",
+    "tailwind-merge": "^2.3.0",
+    "tailwindcss-animate": "^1.0.7"
+  },
+  "devDependencies": {
+    "eslint": "^8",
+    "eslint-config-next": "14.2.3",
+    "postcss": "^8",
+    "tailwindcss": "^3.4.1"
+  }
+}
