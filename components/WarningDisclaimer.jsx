@@ -57,7 +57,7 @@ const WarningDisclaimer = () => {
             </button>
             <p className="font-medium text-yellow-800">Important Notice</p>
             <p className="text-yellow-700">
-              The information presented on this page is generated using advanced AI technology and provides a rough analysis based on the available data. While we strive for accuracy, the results may not always be precise or comprehensive. This tool is designed to offer a general overview and should not replace professional advice or detailed ingredient analysis. Users are encouraged to verify the information independently and consult experts for specific concerns regarding product ingredients this website is to know what ingrdents description
+              The information presented on this page is generated using advanced AI technology and provides a rough analysis based on the available data. While we strive for accuracy, the results may not always be precise or comprehensive. This tool is designed to offer a general overview and should not replace professional advice or detailed ingredient analysis. Users are encouraged to verify the information independently and consult experts for specific concerns regarding product ingredients
             </p>
           </div>
         </div>
