@@ -46,7 +46,7 @@ const Page = () => {
 
       const promptConfig = [
         {
-          "text": `Analyze the provided product image to determine if it is a food or cosmetic product. If it is neither, respond with {error: 'Please provide product ingredients'}. If valid, list all ingredients and categorize each as good, bad, or neutral according to the European Chemicals Agency (ECHA) and the European Food Safety Authority (EFSA). For any restricted or prohibited ingredients, provide a brief description of its usage frequency, and its effects or benefits when used ${usageFrequency}. The response should be a JSON object in the following format: {ingredients: [{name: ingredient_name, status: 'good/bad/neutral', description: 'short description', daily_effects: 'effects of using daily', weekly_effects: 'effects of using 1-3 times weekly'}]}.`
+          "text": `Analyze the provided product image to determine if it is a food or cosmetic product. If it is neither, respond with {error: 'Please provide product ingredients'}. If valid, list all ingredients and categorize each as good, bad, or neutral according to the European Chemicals Agency (ECHA) and the European Food Safety Authority (EFSA). For any restricted or prohibited ingredients, provide a short description of its usage frequency, and its effects or benefits when used ${usageFrequency}. The response should be a JSON object in the following format: {ingredients: [{name: ingredient_name, status: 'good/bad/neutral', description: 'short description'}]}.`
         },
 
         {
