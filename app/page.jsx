@@ -55,7 +55,7 @@ export default function Home() {
           </span>
         </h1>
         <p className="md:text-base text-sm mt-4 max-w-2xl text-slate-300 mx-2 text-center">
-        Discover the truth with SnapPure. Snap a photo of any product's ingredients, and our Gemini AI gives you instant analysis.
+        Discover the truth with SnapPure. Snap a photo of any food or cosmetic products ingredients, and our Gemini AI gives you instant analysis.
         </p>
         <div className="mt-8 w-full flex justify-center">
           <div className="w-full md:w-screen flex  justify-center ">
