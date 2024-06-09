@@ -131,7 +131,7 @@ const Page = () => {
           </div>
           <div className='md:w-1/2 '>
             {ingredients.map((data, index) => (
-              <div className='m-2'>
+              <div className='m-2'  key={index}>
                 <IngredientDropdown key={index} data={data} />
               </div>
 
